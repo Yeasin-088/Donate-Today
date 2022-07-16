@@ -1,0 +1,295 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.donation-image {
+    width: 100%;
+
+}
+
+#image-heading {
+    font-size: 350%;
+    position: absolute;
+    top: 140px;
+    left: 10%;
+    right: 10%;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+#image-paragraph {
+    font-size: x-large;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    position: absolute;
+    top: 400px;
+    color: aliceblue;
+    font-style: italic;
+}
+
+#donation {
+    position: absolute;
+    top: 600px;
+    left: 45%;
+    font-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(78, 78, 78);
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+#donate-heading {
+    font-size: 50px;
+}
+
+#donate-paragraph {
+    font-style: italic;
+    font-size: x-large;
+    padding-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.donate-first-part {
+    text-align: center;
+    margin-top: 10%;
+}
+
+#amount-a {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(213, 243, 255);
+    padding: 30px 25px;
+    border-radius: 5px;
+    margin-right: 1%;
+}
+
+#amount-b {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(141, 141, 141);
+    padding: 30px 25px;
+    border-radius: 5px;
+    margin-right: 1%;
+    border: 3px solid rgb(78, 78, 78);
+}
+
+#amount-c {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(213, 243, 255);
+    padding: 30px 25px;
+    border-radius: 5px;
+    margin-right: 1%;
+    border-style: hidden;
+}
+
+#amount-d {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(213, 243, 255);
+    padding: 30px 25px;
+    border-radius: 5px;
+    margin-right: 1%;
+}
+
+#amount-e {
+    color: black;
+    text-decoration: none;
+    background-color: rgb(213, 243, 255);
+    padding: 30px 25px;
+    border-radius: 5px;
+    margin-right: 1%;
+}
+
+.amount {
+    text-align: center;
+}
+
+#other-amount {
+    text-align: center;
+    padding-top: 10%;
+    color: rgb(163, 163, 163);
+    margin-bottom: 1%;
+}
+
+#over-line {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-bottom: 3%;
+    margin-top: 0%;
+}
+
+#donate-now-button {
+    font-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(78, 78, 78);
+    padding: 15px 20px;
+    border-radius: 5px;
+    margin-left: 45%;
+}
+
+.donate-plan {
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#donate-plan {
+    font-size: 50px;
+}
+
+.plan {
+    display: flex;
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.food {
+    width: 33%;
+    background-image: url(icons/food.png);
+    background-repeat: no-repeat;
+    background-color: rgb(162, 212, 231);
+    background-position-x: 5%;
+    background-position-y: 15%;
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding-top: 8%;
+}
+
+.shelter {
+    width: 33%;
+    background-image: url(icons/shelter.png);
+    background-repeat: no-repeat;
+    background-position-x: 5%;
+    background-position-y: 15%;
+    background-color: rgb(211, 145, 167);
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 10px;
+    margin-right: 10px;
+    padding-top: 8%;
+    padding-bottom: 3%;
+}
+
+.education {
+    width: 33%;
+    background-image: url(icons/Frame-1.png);
+    background-repeat: no-repeat;
+    background-position-x: 5%;
+    background-position-y: 15%;
+    background-color: rgb(255, 255, 176);
+    padding-right: 12px;
+    padding-left: 12px;
+    border-radius: 10px;
+    padding-top: 8%;
+}
+
+#projects-heading {
+    font-size: 50px;
+}
+
+#projects-button {
+    font-style: none;
+    text-decoration: none;
+    color: aliceblue;
+    background-color: rgb(78, 78, 78);
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+#projects-image {
+    width: 90%;
+    padding-left: 10%;
+    margin-left: 5px;
+}
+
+.running-projects {
+    display: flex;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+#updates {
+    font-size: 50px;
+    text-align: center;
+}
+
+#updates-para {
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.last-update {
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+.subscribe {
+    display: flex;
+    text-align: center;
+    background-color: rgb(241, 241, 215);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 25%;
+    margin-right: 25%;
+    border-radius: 5px;
+}
+
+#mail {
+    color: aliceblue;
+    background-color: rgba(175, 175, 175, 0.658);
+    padding-right: 25%;
+    padding-left: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 25%;
+    border-radius: 3px;
+
+}
+
+#subscribe {
+    color: aliceblue;
+    background-color: rgb(255, 56, 56);
+    padding: 8px 25px 8px 25px;
+    border-radius: 3px;
+}
+
+#footer-line-a {
+    font-family: 'Lobster', cursive;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik Moonrocks', cursive;
+
+    color: rgb(255, 56, 56);
+    text-align: center;
+    margin-top: 10%;
+    font-size: xx-large;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+#footer-line-b {
+    color: white;
+    text-align: center;
+    margin-bottom: 2%;
+    padding-bottom: 3%;
+
+}
+
+.buttom-part {
+    background-color: rgb(0, 0, 0);
+}
